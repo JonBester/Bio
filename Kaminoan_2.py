@@ -79,7 +79,7 @@ Created on Fri Dec 15 08:04:36 2017
     
 #NOTE
     #this addition does not check non-specific binding, primer dimers etc.
-    #this program only accepts sequences consisting of a c t g and A C T G. Any other symbols will cause the sequence to be rejected."
+    #this program only accepts sequences consisting of a c t g and A C T G Any other symbols will cause the sequence to be rejected."
     
 
 #insert desired cloning sequences below between the quotation marks.
