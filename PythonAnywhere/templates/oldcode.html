@@ -1,0 +1,17 @@
+'''
+    return '''
+            '''<html>
+                <body>
+                    <p>Paste your protospacer sequence 5'->3' without the PAM (ie PAM would come at the end if it were included):
+                    <form method="post" action="." enctype="multipart/form-data">
+                        <p><input name="string" /></p>
+                        <p><input type="file" name="input_file" /></p>
+                        <p><input type="submit" name="action" value="Process your sequencing data" /></p>
+                    </form>
+                    {leader} 
+                    {output_sequence_sentence}
+                </body>
+            </html>
+        '''#.format(leader="Your gRNA sequence is:" + output_data, output_sequence_sentence = "Your number is:" + output_sequence)
+'''
+'''
